@@ -53,8 +53,8 @@ variables (unique to your environment):
 - `KAFKA_SASL_MECHANISM`
 - `KAFKA_USERNAME`
 - `KAFKA_PASSWORD`
-- `TRINO_SERVER`
-- `TRINO_USER`
+- `TRINO_HOSTNAME`
+- `TRINO_HOSTNAME`
 - `TRINO_PORT`
 
 Here's a quick highlight of the notebooks:
