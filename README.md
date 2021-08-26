@@ -14,12 +14,18 @@ Data**.
 
 ![MLLC](support/ml-lifecycle-desktop.svg)
 
+**Figure:** High level view of Starburst's Data Consumption Layer
+![Consumption view](support/higher-level-arch.png)
+
 ## Demonstration
 This demonstration will illustrate how quickly a Data Scientist can join
 streaming data from a **Customer Support Chatbot** to both the **Customer** and
 **Financial** data domains in relational databases. This process is
 straightforward thanks to **Starburst Data's** data consumption layer
 abstractions. 
+
+## High Level Architecture 
+![Data source view](support/high-level-arch.png)
 
 ## Requirements
 Please see [chatbot-env-setup](https://github.com/keklundrh/chatbot-env-setup)
