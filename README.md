@@ -32,6 +32,8 @@ Please see [chatbot-env-setup](https://github.com/keklundrh/chatbot-env-setup)
 for instructions to create a comparable demo environment. 
 
 You will need:
+- [Red Hat OpenShift Data
+  Science](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-data-science)
 - [A Kafka
   queue](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka)
 - PostgreSQL with staged data (Customer domain)
@@ -40,3 +42,28 @@ You will need:
 - Jupyter notebooks (this repo)  
 
 ## Getting Started
+You will need an environment setup before getting started (see requirements
+section). 
+
+Log into your Red Hat OpenShift Data Science environment and select an
+appropriate notebook image. Be sure to include the following environment
+variables (unique to your environment):
+- `KAFKA_BOOTSTRAP_SERVER`
+- `KAFKA_SECURITY_PROTOCOL`
+- `KAFKA_SASL_MECHANISM`
+- `KAFKA_USERNAME`
+- `KAFKA_PASSWORD`
+- `TRINO_SERVER`
+- `TRINO_USER`
+- `TRINO_PORT`
+
+Here's a quick highlight of the notebooks:
+- `0_kafka_prepopulate.ipynb`:  connect to kafka and prepopulate the queue with
+  randomized customer numbers and support requests.
+- `1_kafka_producer.ipynb`: simple "chatbot" to illustrate sending single
+  messages 
+- `2_kafka_consumer.ipynb`: simple consumer listening for our hello world
+  exercise in the previous notebook
+- `3_trino_explore.ipynb`: connect to Starburst, pull and explore your data.
+- `4_build_features.ipynb`: build features for use in future models.
+- `5_nltk.ipynb`: exercise for the reader.
