@@ -32,7 +32,8 @@ Please see [chatbot-env-setup](https://github.com/keklundrh/chatbot-env-setup)
 for instructions to create a comparable demo environment. 
 
 You will need:
-- [A Kafka queue] (https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka) 
+- [A Kafka
+  queue](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka)
 - PostgreSQL with staged data (Customer domain)
 - PostgreSQL with staged data (Finance domain)
 - Hive metastore 
