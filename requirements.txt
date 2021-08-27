@@ -7,3 +7,4 @@ six
 pandas
 trino
 pyhive
+nltk
