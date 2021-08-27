@@ -35,7 +35,7 @@ You will need:
 - [Red Hat OpenShift Data
   Science](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-data-science)
 - [A Kafka
-  queue](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka)
+  queue](https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka) with a 'messages' topic.
 - PostgreSQL with staged data (Customer domain)
 - PostgreSQL with staged data (Finance domain)
 - Hive metastore 
