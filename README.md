@@ -53,7 +53,7 @@ variables (unique to your environment):
 - `KAFKA_SASL_MECHANISM`
 - `KAFKA_USERNAME`
 - `KAFKA_PASSWORD`
-- `TRINO_HOSTNAME`
+- `TRINO_USERNAME`
 - `TRINO_HOSTNAME`
 - `TRINO_PORT`
 
