@@ -1,7 +1,7 @@
-pip
-kafka-python
-matplotlib
-pandas==1.2.2
+kafka-python==2.0.2
+matplotlib==3.4.3
+nltk==3.6.2
 numpy==1.20.1 
-trino
-nltk
+pandas==1.2.2
+pip==21.2.4
+trino==0.305.0
